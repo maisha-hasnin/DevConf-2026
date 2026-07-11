@@ -37,17 +37,20 @@
     border: 1px solid #0D1B2A;
  }
  
- /* Nav section style */
+ /* Nav section start */
 
  nav{
+
+    width: 1140px;
+    margin: 20px auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
-    height: 98px;
 
  }
+
+ 
 .logo{
     width: 140px;
 }
@@ -175,3 +178,146 @@ ul li a{
     font-size: 14px;
     line-height: 21px;
 }
+
+/* price section start */
+
+.price{
+    width: 1140px;
+    margin: 100px auto;
+}
+
+.price-title{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.price-title h2{
+    font-size: 48px;
+    color: #0D1B2A;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.price-title p{
+    font-size: 16px;
+    color: #575757;
+    margin-top:0px ;
+    font-weight: 300;
+}
+
+.price-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.price-card-container p{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/* standard price card */
+
+.price-card-standard{
+    padding: 20px;
+    border: 1px solid #E5E7EB ;
+    border-radius:12px ;
+    width: 364px;
+}
+
+/* pro price card */
+
+.price-card-pro{
+    padding: 20px;
+    background-color: #0D1B2A;
+    border-radius:12px ;
+    color: #ffffff;
+    width: 364px;
+    
+}
+
+.price-card-pro .package-name{
+    color: #93C5FD;
+}
+
+/* team price card */
+
+.price-card-team{
+    padding: 20px;
+    border: 1px solid #E5E7EB ;
+    border-radius:12px ;
+    background-color: #F8F9FB;
+    width: 364px;
+}
+
+.price-card-standard .package-name,
+.price-card-team .package-name{
+    color: #888888;
+    font-weight: 500;
+}
+
+.price-card-standard .per-person, .price-card-team .per-person{
+    color: #888888;
+    font-weight: 300;
+}
+
+
+
+.price-card-container ul li::marker{
+    color: #2563EB;
+}
+
+.price-card-standard li, .price-card-team li{
+    color: #333333;
+    font-weight:300 ;
+}
+
+/* price card full width buttons */
+
+.price-card-container .common-btn{
+    width: 100%;
+}
+
+.price-card-container .outline-btn1{
+    width: 100%;
+}
+
+.price-card-container .outline-btn2{
+    width: 100%;
+}
+
+.price .package-name{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.price h3{
+    font-size: 44px;
+}
+
+.price-card-container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.price-card-container h3{
+    margin: 6px 0;
+}
+
+.price-card-standard hr, .price-card-team hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+}
+
+.price-card-pro hr{
+    border: none;
+    border-top: 1px solid #FFFFFF;
+    opacity: 0.1;
+}
+
+
+
+
